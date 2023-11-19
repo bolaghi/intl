@@ -410,10 +410,10 @@ class NumberFormatRepository implements NumberFormatRepositoryInterface
             ],
             'fa' => [
                 'numbering_system' => 'arabext',
-                'currency_pattern' => '‎¤#,##0.00',
+                'currency_pattern' => '‏#,##0.00 ¤',
                 'accounting_currency_pattern' => '‎¤ #,##0.00;‎(¤ #,##0.00)',
                 'decimal_separator' => '٫',
-                'grouping_separator' => '٬',
+                'grouping_separator' => ',',
                 'plus_sign' => '‎+',
                 'minus_sign' => '‎−',
                 'percent_sign' => '٪',
